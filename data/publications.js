@@ -277,5 +277,3 @@ const publicationsData = [
     ]
   }
 ];
-
-module.exports = publicationsData;

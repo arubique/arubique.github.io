@@ -723,5 +723,3 @@ const authorsData = {
     }
   ]
 };
-
-module.exports = authorsData;
