@@ -464,6 +464,12 @@ const authorsData = {
       "isMe": false
     },
     {
+      "id": "benjamin_raible",
+      "name": "Benjamin Raible",
+      "url": "",
+      "isMe": false
+    },
+    {
       "id": "martin_gubri",
       "name": "Martin Gubri",
       "url": "https://gubri.eu/",

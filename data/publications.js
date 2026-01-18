@@ -1,6 +1,60 @@
 // Publications data in JSON format
 const publicationsData = [
   {
+    "id": "alex2025disco",
+    "title": "DISCO: Diversifying Sample Condensation for Efficient Model Evaluation",
+    "authors": [
+      "alexander_rubinstein",
+      "benjamin_raible",
+      "martin_gubri",
+      "seong_joon_oh"
+    ],
+    "venue": "arXiv",
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2510.07959",
+    "bibtex": "@article{alex2025disco,\n  title={DISCO: Diversifying Sample Condensation for Efficient Model Evaluation},\n  author={Rubinstein, Alexander and Raible, Benjamin and Gubri, Martin and Oh, Seong Joon},\n  journal={arXiv preprint arXiv:2510.07959},\n  year={2025}\n}",
+    "image": "pictures/alex2025disco.png",
+    "links": [
+      {
+        "text": "ResearchTrend.AI",
+        "url": "https://researchtrend.ai/papers/2510.07959"
+      },
+      {
+        "text": "Project Page",
+        "url": "https://arubique.github.io/disco-site/"
+      },
+      {
+        "text": "Code",
+        "url": "https://github.com/arubique/disco-public"
+      }
+    ],
+    "abstract": "TLDR: DISCO selects an anchor subset for fast evaluation by " +
+      "greedily choosing samples that maximize inter-model disagreement, avoiding " +
+      "clustering-based selection. It simplifies anchor selection and achieves " +
+      "state-of-the-art performance prediction on benchmarks like MMLU, HellaSwag, " +
+      "Winogrande, and ARC." +
+      "<details><summary>Not TLDR</summary>" +
+      "Evaluating modern machine learning models has become prohibitively expensive. " +
+      "Benchmarks such as LMMs-Eval and HELM demand thousands of GPU hours per model. " +
+      "Costly evaluation reduces inclusivity, slows the cycle of innovation, and worsens " +
+      "environmental impact. The typical approach follows two steps. First, select an " +
+      "anchor subset of data. Second, train a mapping from the accuracy on this subset " +
+      "to the final test result. The drawback is that anchor selection depends on " +
+      "clustering, which can be complex and sensitive to design choices. We argue that " +
+      "promoting diversity among samples is not essential; what matters is to select " +
+      "samples that maximise diversity in model responses. Our method, Diversifying " +
+      "Sample Condensation (DISCO), selects the top-k samples with the greatest model " +
+      "disagreements. This uses greedy, sample-wise statistics rather than global " +
+      "clustering. From a theoretical view, inter-model disagreement provides an " +
+      "information-theoretically optimal rule for such greedy selection. DISCO shows " +
+      "empirical gains over prior methods, achieving state-of-the-art results in " +
+      "performance prediction across MMLU, HellaSwag, Winogrande, and ARC." +
+      "</details>",
+    "rtai_tags": [
+      "ELM"
+    ]
+  },
+  {
     "id": "alex2025ocl",
     "title": "Are We Done with Object-Centric Learning?",
     "authors": [
