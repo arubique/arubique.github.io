@@ -1,4 +1,4 @@
-// Publications data in JSON format
+ale// Publications data in JSON format
 const publicationsData = [
   {
     "id": "alex2025disco",
@@ -82,11 +82,11 @@ const publicationsData = [
       },
       {
         "text": "Project Page",
-        "url": "https://alexanderrubinstein.github.io/are-we-done-with-ocl/"
+        "url": "https://arubique.github.io/are-we-done-with-ocl/"
       },
       {
         "text": "Code",
-        "url": "https://github.com/AlexanderRubinstein/OCCAM"
+        "url": "https://github.com/arubique/OCCAM"
       }
     ],
     // "abstract": "Object-centric learning (OCL) aims to learn object-wise representations, promising robust vision and human-like perception. However, OCL evaluation remains tied to unsupervised object discovery, a problem largely solved by foundational segmentation models. We argue that both object discovery and robust vision are effectively addressed. The field must shift towards real-world applications beyond object discovery.",
