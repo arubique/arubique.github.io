@@ -1,4 +1,4 @@
-ale// Publications data in JSON format
+// Publications data in JSON format
 const publicationsData = [
   {
     "id": "alex2025disco",
