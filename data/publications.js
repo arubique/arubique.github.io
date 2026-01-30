@@ -28,9 +28,9 @@ const publicationsData = [
         "url": "https://github.com/arubique/disco-public"
       }
     ],
-    "abstract": "TLDR: DISCO speeds up LLM evaluation by up to 100 times." +
+    "abstract": "TLDR: DISCO speeds up LLM evaluation by up to 100 times. " +
       "It achieves that by first selecting a test data subset and then predicting " +
-      "full test set performance from LLM's outputs on this subset." +
+      "full test set performance from LLM's outputs on this subset. " +
       "This selection process is based on maximizing inter-model disagreement. " +
       "It is much simpler than sample clustering-based selection methods popular for this task before. " +
       "Thanks to that, DISCO achieves " +
